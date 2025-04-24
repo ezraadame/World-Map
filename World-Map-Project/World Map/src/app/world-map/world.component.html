@@ -512,8 +512,16 @@
         </svg>
     </div>
     <div class="column2" *ngIf="data">
-        <h2>Country Information</h2>
+        <h2>Country Information</h2>      
+
         <ul class="countries">
+            <img
+                *ngIf="data?.iso2Code"
+                [src]="'https://flagcdn.com/48x36/' + data.iso2Code.toLowerCase() + '.png'"
+                alt="{{ data.name }} flag"
+                width="60"
+                height="36"
+            />
             <li><strong>Name:</strong>{{data.name}}</li>
             <li><strong>Capital:</strong>{{data.capitalCity}}</li>
             <li><strong>Region:</strong>{{data.region.value}}</li>

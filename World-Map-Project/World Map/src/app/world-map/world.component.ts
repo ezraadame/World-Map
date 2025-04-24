@@ -27,7 +27,8 @@ export class WorldComponent {
           region: countryData.region,
           incomeLevel: countryData.incomeLevel,
           latitude: countryData.latitude,
-          longitude: countryData.longitude
+          longitude: countryData.longitude,
+          iso2Code: countryData.iso2Code
         };
       } else {
         this.error = true;

@@ -5,4 +5,5 @@ export interface CountryData {
     incomeLevel: { value: string };
     latitude: string;
     longitude: string;
+    iso2Code: string;
   }
