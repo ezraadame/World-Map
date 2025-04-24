@@ -30,8 +30,14 @@ This is an interactive world map application built with Angular and TypeScript. 
 
 To run the project locally:
 
+## Make sure to have Angular and Node.js installed first.
+This project uses the following versions:
+Angular CLI: 17.3.16
+Node: 20.19.0
+
+
 ```bash
 git clone https://github.com/ezraadame/World-Map.git
 cd World-Map/World-Map-Project/World Map
 npm install
-ng serve
+ng serve -o
