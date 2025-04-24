@@ -23,7 +23,8 @@ This is an interactive world map application built with Angular and TypeScript. 
   - Loading and error handling states for better user exeperience.
 
 ## Screenshots
-![World Map Example](World-Map/World-Map-Project/World Map/src/assets/screenshots/world-map-screenshot.png)
+![image](https://github.com/user-attachments/assets/6ba1cdc5-c653-492b-8516-ddfb42f7d693)
+
 
 ## Getting Started
 
