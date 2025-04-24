@@ -39,3 +39,11 @@ path:hover {
     fill: rgb(0, 100, 128);
     cursor: pointer;
 }
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
