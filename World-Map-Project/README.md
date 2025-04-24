@@ -1,38 +1,36 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNORS UNIVERSITY 
-## D280 – JAVASCRIPT PROGRAMMING
-Welcome to JavaScript Programming! 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+# 🌍 World Map Explorer (Angular Project)
 
-D280
-<strong>Student ID - 010639062</strong>
-Angular Version - 17.3.16
+This is an interactive world map application built with Angular and TypeScript. It allows users to explore real-time data from the World Bank API by hovering over or selecting countries on an SVG-based world map.
 
+## 🔧 Technologies Used
 
-# World-Map
+- Angular (Standalone components)
+- TypeScript
+- HTML/CSS (custom styling)
+- World Bank API
+- FlagCDN (for country flag images)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.16.
+## Features
 
-## Development server
+  - SVG world map with hover and click interactions
+  - Dynamic country data:
+  - Name
+  - Capital City
+  - Region
+  - Income Level
+  - Latitude & Longitude
+  - Flag display using ISO2 codes and FlagCDN
+  - Loading and error handling states for better user exeperience.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshots
+![World Map Example](assets/screenshots/world-map-screenshot.png)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To run the project locally:
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/ezraadame/World-Map.git
+cd World-Map/World-Map-Project/World Map
+npm install
+ng serve
