@@ -2,7 +2,7 @@
 
 This is an interactive world map application built with Angular and TypeScript. It allows users to explore real-time data from the World Bank API by hovering over or selecting countries on an SVG-based world map.
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - Angular (Standalone components)
 - TypeScript
@@ -23,7 +23,7 @@ This is an interactive world map application built with Angular and TypeScript. 
   - Loading and error handling states for better user exeperience.
 
 ## Screenshots
-![World Map Example](assets/screenshots/world-map-screenshot.png)
+![World Map Example](World-Map/World-Map-Project/World Map/src/assets/screenshots/world-map-screenshot.png)
 
 ## Getting Started
 
