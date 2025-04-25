@@ -10,6 +10,7 @@ import { CountryData } from '../models/country-data.model';
   templateUrl: './world.component.html',
   styleUrl: './world.component.css'
 })
+
 export class WorldComponent {
   data?: CountryData;
   error: boolean = false;
